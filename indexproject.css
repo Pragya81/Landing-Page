@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: url('https://www.xtrafondos.com/wallpapers/cometas-y-planetas-en-paisaje-digital-urbano-en-la-noche-4419.jpg'), linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay; 
+}
+.navbar{
+    height: 100px;
+    color: white;
+    margin-left:5%;
+    margin-right: 5%;
+    width: 90%;
+}
+.lists{
+    width: 50%;
+   
+}
+.lists > p{
+    font-size: 22px;
+    font-family: monospace;
+    font-weight: 700;
+    cursor: pointer;
+}
+.brand, .navbar, .lists{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.hero{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.hero > p{
+    color: white;
+    margin-top: 10px;
+}
+.hero > h1{
+    font-size: 70px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500 !important;
+}
+.btn > button {
+    height: 50px;
+    width: 120px;
+    background: #ff414d;
+    border-radius: 8px;
+    border: #ff414d solid 1px;
+    color: white;
+    cursor:pointer;
+}
+.btn > button:hover{
+    box-shadow:  -3px 5px 23px 4px #b3b3b3;
+}
+.search{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top: 70px;
+    height: 60px;
+    width: 60%;
+    background: white;
+    border-radius: 9px;
+}
+.search input, .search select {
+    height: 55px;
+    font-size: 20px;
+    border:none;
+}
+.looking  i {
+    height:30px;
+    width:30px
+}
+.btn_search{
+    height:60px ;
+    width: 120px;
+    background: #ff414d;
+    border-radius: 8px;
+    border: #ff414d solid 1px;
+    color: white;
+    cursor:pointer;
+}
